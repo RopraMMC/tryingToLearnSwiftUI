@@ -1,0 +1,30 @@
+//Storing booleans and changing them
+var morning = true
+var Auth = false
+let Mult = 150.isMultiple(of: 3)
+print(Auth)
+Auth  = !Auth
+print(Auth)
+
+print(morning)
+morning.toggle()
+print(morning)
+
+print(Mult)
+/*joining strings and intergerts together using
+ string interprilation*/
+let a = "Ropra"
+let occ = "Student"
+let t = 08.04
+print("Hi im \(a), and I'm currently a \(occ) at School.")
+print("It is currently \(t)am")
+print("20 x 20 = \(20*20)")
+
+//celcius to fherinheight converter
+let temp = 28.3
+
+var ftemp = temp
+ftemp *= 9
+ftemp /= 5
+ftemp += 32
+print("\(temp)ºC is approximately \(Double(ftemp)) ºF")
