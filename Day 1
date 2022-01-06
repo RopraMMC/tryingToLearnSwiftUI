@@ -1,0 +1,38 @@
+//day 1:
+
+//learnt to store variables using var and constants using let and how to update variables
+var character = "Mike"
+let bestNetfixSeries = "Suits"
+print(character)
+print(bestNetflixSeries)
+character = "Harvey"
+print(character)
+
+//learn simple arithmetic in SwiftUI:
+
+var count = 10
+print(count)
+
+count += 10
+print(count)
+
+count += 100
+print(count)
+count /= 10
+print(count)
+count+=10
+print(count)
+
+//learnt how to store reals (decimals) and use arithmetic with them
+var x = 2.4
+var y = 1.4
+
+print(Double(x) + Double(y))
+
+//learnt how to make multi-lined strings
+print("""
+I didn't know that
+this also works in
+python :)
+""")
+
