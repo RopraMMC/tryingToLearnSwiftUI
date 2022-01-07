@@ -1,0 +1,57 @@
+//How to store data in arrays
+var a = ["a","b","c","d"]
+print(a)
+a.append("e")
+print(a)
+print(a[0])
+print(a[1])
+
+var point = Array<Int>()
+point.append(100)
+point.append(80)
+point.append(85)
+print(point[1])
+print(point[2])
+print(point)
+
+var Lname = [String]()
+Lname.append("Ross")
+Lname.append("Specter")
+Lname.append("Pearson")
+Lname.append("Hardman")
+Lname.append("Zane")
+print(Lname)
+print(Lname[0])
+print(Lname[4])
+print(Lname.count)
+print(Lname.contains("Specter"))
+print(Lname.sorted())
+//dictionaries
+let di = ["a":"hi", "b":"test"]
+print(di["b"] as Any)
+print(di["c", default: "Error"])
+
+var score = [String : Int]()
+score["Zak"] = 28
+score["Ilias"] = 28
+score["Jack"] = 25
+print(score["Jack", default: 0])
+
+var Sports = Set<String>()
+Sports.insert("Football (soccer)")
+Sports.insert("Tennis")
+Sports.insert("Rugby")
+Sports.insert("Rounders")
+Sports.insert("Baketball")
+print(Sports)
+
+//using enum's to store strings
+enum abs {
+    case AB, ABC, ABCD, ABCDE, ABCDEF
+}
+var ab = abs.AB
+print(ab)
+ab = .ABC
+print(ab)
+ab = .ABCDEF
+print(ab)
